@@ -1,0 +1,21 @@
+#footer_bar {
+    bottom: 0px;
+    height: 90px;
+    width: 100%;
+    z-index: 900;
+    background-color: white;
+    background-image: url(../imagens/footer_h.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3em 0 0 0;
+    margin: 3em 0 0 0;
+    border-top: 1px solid #d8d8d8;
+}
+
+@media only screen and (max-width: 767px) {
+    #footer_bar {
+        height: 320px;
+        background-image: url(../imagens/footer_v.png);
+        background-size: 200px;
+    }
+}

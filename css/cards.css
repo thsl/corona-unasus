@@ -1,0 +1,57 @@
+
+.card-microcurso {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-microcurso .card-header {
+    color: #fff;
+    min-height: 4em;
+}
+
+
+
+@supports (background-blend-mode: multiply) {
+
+    .card-microcurso > .card-header {
+        background: url('../imagens/covid19.jpg');
+        background-size: cover;
+        background-blend-mode: luminosity;
+        background-repeat: no-repeat;
+    }
+}
+
+.cor0 {
+    background-color: #A8A8A8 !important;
+}
+
+.cor1 {
+    background-color: #142E52 !important;
+}
+
+.cor2 {
+    background-color: #004D37 !important;
+}
+
+.cor3 {
+    background-color: #094F5D !important;
+}
+
+.cor4 {
+    background-color: rgb(186, 69, 79) !important;
+}
+
+.cor5 {
+    background-color: rgb(182, 103, 153) !important;
+}
+
+.cor6 {
+    background-color: rgb(242, 110, 74) !important;
+}
+
+.cor7 {
+    background-color: rgb(146, 192, 69) !important;
+}
+
+.cor8 {
+    background-color: rgb(220, 178, 42) !important;
+}

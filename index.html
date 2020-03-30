@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="no" name="msapplication-tap-highlight">
+  <title>Enfrentamento à pandemia da COVID-19</title>
+  <link rel=icon href=favicon.ico type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="libs/css/loader.css?1.0.0">
+  <link rel="stylesheet" href="libs/css/bootstrap.min.css?4.3.1">
+  <link rel="stylesheet" href="libs/css/font-awesome.min.css?4.7.0">
+  <link rel="stylesheet" href="css/aplicacao.css?1.0.1">
+  <script src="libs/js/jquery.min.js?3.4.1"></script>
+  <script src="libs/js/popper.min.js?1.14.7"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+  
+  <div id="loader-wrapper">
+      <div id="loader"></div>
+  </div>
+    <div class="intro">
+        <div class="intro-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 mt-5">
+                        <div class="separador">
+                            <h1 class="h6">Programa de Formação Modular</h1>
+                            <h2>Enfrentamento da pandemia do coronavírus (COVID-19)</h2>
+                            <p class="text-cinza45">Assista ao vídeo de boas-vindas da Dra. Mayra Pinheiro, Secretária de Gestão do Trabalho e da Educação na Saúde do Ministério da Saúde (SGTES) para liberar o acesso aos microcursos. Você poderá acessá-lo no ambiente da oferta e assistir novamente quando quiser.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="embed-responsive embed-responsive-16by9">
+                
+                            <div id="video_apresentacao">
+                                <div id="video_play" class="playpause"></div>
+                                <video id="video" onended="videoEnded(this)" poster="imagens/apresentacao_mayra_720p.png" preload="metadata" controls>
+                                    <source src="videos/apresentacao_mayra_720p.mp4" type="video/mp4">
+                                </video>
+                            </div>
+            
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bck-cinza97 p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <img src="imagens/corona_img_01.png" class="img-adaptative" width="200">
+                </div>
+                <div class="col-sm-6">
+                    <div class="separador">
+                        <h3>Apresentação do Programa</h3>
+                        <p class="text-cinza45">A Universidade Aberta do SUS, iniciativa do Ministério da Saúde com a FIOCRUZ e uma rede de reconhecidas universidades, contribuindo com o enfrentamento à impactante pandemia de coronavirus apresenta plano de capacitação focada no tema. Tal iniciativa ocorre por delegação dos Ministérios da Educação e da Saúde, tendo como alvo alunos dos cursos da área de saúde e profissionais de saúde.</p>
+                    </div>
+                
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="text-cinza45 mt-5">Nesse sentido, foi editada pelo ministro da Educação, a Portaria nº 356, de 20 de março de  2020, que “dispõe sobre a atuação dos alunos dos cursos da área de saúde no combate à pandemia do coronavírus (COVID-19)”, seguida da instituição da Ação Estratégica <strong>"O Brasil Conta Comigo"</strong>, pelo Ministro da Saúde,  por meio da Portaria nº  492, de março de 2020. Ambas tratam do engajamento dos alunos de medicina, enfermagem, farmácia e fisioterapia no enfrentamento da pandemia.</p>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <img src="imagens/corona_img_02.png" class="img-adaptative" width="250">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="bck-cinza97 p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <img src="imagens/corona_img_03.png" class="img-adaptative" width="250">
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-cinza45 mt-5">Esse programa de formação dá concretude e suporte à participação dos estudantes em atividades predominantemente práticas e assistenciais, disponibilizando-se igualmente aos profissionais do setor saúde, como tradição da maioria dos cursos da UNA-SUS. Assista ao vídeo de boas-vindas da Dra. Mayra Pinheiro, Secretária de Gestão do Trabalho e da Educação na Saúde do Ministério da Saúde (SGTES) para liberar o acesso aos microcursos. Você poderá acessá-lo no ambiente da oferta e assistir novamente quando quiser.</p>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    
+    <div class="bck-azul20 p-5 text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 programa">
+                    <div class="separador">
+                        <h3>Microcursos</h3>
+                    </div>
+                    <p>O menu a seguir apresenta os
+                        <em>microcursos</em> que compõem o Programa de Formação Modular para o Enfrentamento da pandemia do coronavírus (COVID-19).
+                    </p>
+                    <p>A ação educacional é dividade em três conjuntos de microcursos. O primeiro referente à conhecimentos gerais sobre o coronavírus (COVIDO-19). O segundo sobre Atenção Primária, onde se espera resolver a expressiva maioria dos casos. O terceiro é relativo à atenção especializada, que será necessária para muitos alunos e profissionais da saúde.</p>
+                    
+                </div>
+                <div class="col-md-6 mt-5">
+                    <p>Seguindo tendências educacionais modernas, os microcursos são autoinstrucionais e poderão ser realizados na velocidade, na ordem que o aluno desejar e por meio de diferentes dispositivos móveis - tanto celular, tablete ou computador aos quais os estudantes tenham acesso.</p>
+                    <p>Os conteúdos estão baseados nos protocolos e diretrizes estabelecidos pelo Ministério da Saúde, alinhados com as melhores evidências disponíveis e poderão a qualquer momento ser atualizados, dado ao pouco conhecimento ainda disponível sobre esse novo patógeno.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="separador">
+                    <h3>Temas Gerais</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mt-4">
+                <div id="MC46169" class="card h-100 card-microcurso">
+                    <div class="card-header cor1">
+                        <div class="card-title">
+                            <p>
+                                <small>UFMA</small>
+                                <br>
+                                <strong>MICROCURSO - Xh</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-cinza45">O Novo Coronavírus e a COVID-19</h5>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-success">Matricule-se</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div id="MC46164" class="card h-100 card-microcurso">
+                    <div class="card-header cor1">
+                        <div class="card-title">
+                            <p>
+                                <small>FIOCRUZ Brasília</small>
+                                <br>
+                                <strong>MICROCURSO - Xh</strong></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-cinza45">Doenças ocasionadas por vírus respiratórios emergentes, incluindo o COVID-19</h5>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-success">Matricule-se</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div id="mc3" class="card h-100 card-microcurso">
+                    <div class="card-header cor1">
+                        <div class="card-title">
+                            <p>
+                                <small>FIOCRUZ Brasília</small>
+                                <br>
+                                <strong>MICROCURSO - Xh</strong></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-cinza45">Prevenção e controle de infecções (PCI) causadas pelo novo coronavírus (COVID-19)</h5>
+                    
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-success">Matricule-se</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="separador">
+                    <h3>Atenção Primária à Saúde</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mt-4">
+                <div id="MC46161" class="card h-100 card-microcurso">
+                    <div class="card-header cor2">
+                        <div class="card-title">
+                            <p>
+                                <small>UNIFESP</small>
+                                <br>
+                                <strong>MICROCURSO - Xh</strong></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-cinza45">Medidas de proteção no manejo da COVID-19 na Atenção Primária à Saúde</h5>
+                    
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-outline-info">Certificado</a><a href="#" class="ml-5">Acessar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div id="mc5" class="card h-100 card-microcurso">
+                    <div class="card-header cor2">
+                        <div class="card-title">
+                            <p>
+                                <small>FIOCRUZ Brasília</small>
+                                <br>
+                                <strong>MICROCURSO - Xh</strong></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-cinza45">Manejo Clínico da COVID-19 na Atenção Primária à Saúde</h5>
+                    
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#">Acessar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div id="MC46168" class="card h-100 card-microcurso">
+                    <div class="card-header cor2">
+                        <div class="card-title">
+                            <p>
+                                <small>UFMA</small>
+                                <br>
+                                <strong>MICROCURSO - Xh</strong></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-cinza45">Orientações gerais ao paciente com COVID-19 na Atenção Primária à Saúde </h5>
+                    
+                    </div>
+                    <div class="card-footer text-center text-muted">
+                        Não liberado
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="separador">
+                    <h3>Atenção Especializada</h3>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-md-4 mt-4">
+                <div id="MC46163" class="card h-100 card-microcurso">
+                    <div class="card-header cor3">
+                        <div class="card-title">
+                            <p>
+                                <small>UFSC</small>
+                                <br>
+                                <strong>MICROCURSO - Xh</strong></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-cinza45">Medidas de proteção no manejo da COVID-19 na Atenção Especializada</h5>
+                
+                    </div>
+                    <div class="card-footer text-center text-muted">
+                        Aguardando Oferta
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div id="mc7" class="card h-100 card-microcurso">
+                    <div class="card-header cor3">
+                        <div class="card-title">
+                            <p>
+                                <small>FIOCRUZ Brasília</small>
+                                <br>
+                                <strong>MICROCURSO - Xh</strong></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-cinza45">Manejo Clínico da COVID-19 na Atenção Especializada</h5>
+                
+                    </div>
+                    <div class="card-footer text-center text-muted">
+                        Não liberado
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div id="MC46162" class="card h-100 card-microcurso">
+                    <div class="card-header cor3">
+                        <div class="card-title">
+                            <p>
+                                <small>UFSC</small>
+                                <br>
+                                <strong>MICROCURSO - Xh</strong></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-cinza45">Orientações gerais ao paciente com COVID-19 na Atenção Especializada </h5>
+                
+                    </div>
+                    <div class="card-footer text-center text-muted">
+                        Não liberado
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+ 
+  <div id="footer_bar">
+  </div>
+
+  <script>
+
+    //window.addEventListener('load', load);
+    $('#loader-wrapper').remove();
+	
+    function load() {
+      $('#loader-wrapper').remove();
+
+		  axios.get(parent.document.location.href+'/parametros')
+		  .then(function (response) {
+			if (!response.data) {
+			
+			} else {
+				if (response.data.outros.video == 'Ended') {
+          var C1 = response.data.cursos.find(({ CodCurso }) => CodCurso === 45929);
+          var C2 = response.data.cursos.find(({ CodCurso }) => CodCurso === 46001);
+          var C3 = response.data.cursos.find(({ CodCurso }) => CodCurso === 45961);
+          var C4 = response.data.cursos.find(({ CodCurso }) => CodCurso === 46041);
+          var C5 = response.data.cursos.find(({ CodCurso }) => CodCurso === 0);
+          var C6 = response.data.cursos.find(({ CodCurso }) => CodCurso === 0);
+          var C7 = response.data.cursos.find(({ CodCurso }) => CodCurso === 0);
+          var C8 = response.data.cursos.find(({ CodCurso }) => CodCurso === 0);
+          if (C1) {
+            $("#mc1 .botao").html( '<a href="'+C1.Url +'" target="_parent" class="square_btn">Acessar</a>' );
+          } else {
+            $("#mc1 .botao").html( '<span class="square_btn_disabled noselect">Aguardando Oferta</span>' );
+          }
+          if (C2) {
+            $("#mc2 .botao").html( '<a href="'+C2.Url +'" target="_parent" class="square_btn">Acessar</a>' );
+          } else {
+            $("#mc2 .botao").html( '<span class="square_btn_disabled noselect">Aguardando Oferta</span>' );
+          }
+          if (C3) {
+            $("#mc3 .botao").html( '<a href="'+C3.Url +'" target="_parent" class="square_btn">Acessar</a>' );
+          } else {
+            $("#mc3 .botao").html( '<span class="square_btn_disabled noselect">Aguardando Oferta</span>' );
+          }
+          if (C4) {
+            $("#mc4 .botao").html( '<a href="'+C4.Url +'" target="_parent" class="square_btn">Acessar</a>' );
+          } else {
+            $("#mc4 .botao").html( '<span class="square_btn_disabled noselect">Aguardando Oferta</span>' );
+          }
+          if (C5) {
+            $("#mc5 .botao").html( '<a href="'+C5.Url +'" target="_parent" class="square_btn">Acessar</a>' );
+          } else {
+            $("#mc5 .botao").html( '<span class="square_btn_disabled noselect">Aguardando Oferta</span>' );
+          }
+          if (C6) {
+            $("#mc6 .botao").html( '<a href="'+C6.Url +'" target="_parent" class="square_btn">Acessar</a>' );
+          } else {
+            $("#mc6 .botao").html( '<span class="square_btn_disabled noselect">Aguardando Oferta</span>' );
+          }
+          if (C7) {
+            $("#mc7 .botao").html( '<a href="'+C7.Url +'" target="_parent" class="square_btn">Acessar</a>' );
+          } else {
+            $("#mc7 .botao").html( '<span class="square_btn_disabled noselect">Aguardando Oferta</span>' );
+          }
+          if (C8) {
+            $("#mc8 .botao").html( '<a href="'+C8.Url +'" target="_parent" class="square_btn">Acessar</a>' );
+          } else {
+            $("#mc8 .botao").html( '<span class="square_btn_disabled noselect">Aguardando Oferta</span>' );
+          }
+				} else {
+					$("#mc1 .botao").html( '<span class="square_btn_disabled noselect">Não liberado</span>' );
+					$("#mc2 .botao").html( '<span class="square_btn_disabled noselect">Não liberado</span>' );
+					$("#mc3 .botao").html( '<span class="square_btn_disabled noselect">Não liberado</span>' );
+					$("#mc4 .botao").html( '<span class="square_btn_disabled noselect">Não liberado</span>' );
+					$("#mc5 .botao").html( '<span class="square_btn_disabled noselect">Não liberado</span>' );
+					$("#mc6 .botao").html( '<span class="square_btn_disabled noselect">Não liberado</span>' );
+					$("#mc7 .botao").html( '<span class="square_btn_disabled noselect">Não liberado</span>' );
+					$("#mc8 .botao").html( '<span class="square_btn_disabled noselect">Não liberado</span>' );
+				}
+			}
+		  })
+		  .catch(function (error) {
+			console.log(error);
+      });
+      
+    }
+    
+    var stream = document.getElementById("video");
+
+	function videoEnded(video) {
+		video.load();
+		stream.controls = false;
+		$("#video_play").fadeIn();
+		axios.post(parent.document.location.href+'/parametros', {
+			video: 'Ended',
+		  })
+		  .then(function (response) {
+			console.log(response);
+			this.load();
+		  })
+		  .catch(function (error) {
+			console.log(error);
+		  });
+	};
+  
+    $('#video_apresentacao').parent().click(function () {
+
+      if (stream.paused) {
+        $("#video_play").fadeOut();
+		stream.controls = true;
+		stream.play();
+      } else {
+	    stream.controls = false;
+        stream.pause();
+        $("#video_play").fadeIn();
+      }
+
+    });
+
+  </script>
+  <script src="libs/js/bootstrap.min.js?4.3.1"></script>
+</body>
+
+</html>
